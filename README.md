@@ -156,7 +156,7 @@ SELECT
     COUNT(*)
 FROM issued_status
 GROUP BY 1
-HAVING COUNT(*) > 1
+HAVING COUNT(*) > 1;
 ```
 
 ### 3. CTAS (Create Table As Select)
@@ -355,6 +355,6 @@ GROUP BY 1, 2
 
 ## Conclusion
 
-This project demonstrates the application of SQL skills in creating and managing a library management system. It includes database setup, data manipulation, and advanced querying, providing a solid foundation for data management and analysis.
+Developed a complete Library Management System database using SQL. Implemented relational database design, CRUD operations, CTAS, joins, subqueries, CTEs, window functions, stored procedures, triggers, and performance optimization techniques. Generated analytical reports to track book circulation, member activity, branch performance, and revenue generation, demonstrating practical SQL skills used in Data Analyst and Database Developer roles.
 
 ```
